@@ -9,10 +9,10 @@ export default function Layout() {
 
             <ul>
                 <li>
-                    <Link to="/">Public Page</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/protected">Protected Page</Link>
+                    <Link to="/protected">Dashboard/Login</Link>
                 </li>
             </ul>
 

@@ -9,6 +9,7 @@ import PublicPage from "./page/public";
 import LoginPage from "./page/login";
 import RequireAuth from "./components/RequireAuth";
 import ProtectedPage from "./page/protected";
+import ExchangeToken from "./page/exchange-token";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<PublicPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/exchange-token" element={<ExchangeToken />} />
           <Route
             path="/protected"
             element={
